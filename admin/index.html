@@ -1,0 +1,41 @@
+﻿<!-- Admin-paneelin etusivu -->
+<!doctype html>
+<html lang="fi">
+    <head>
+        <title>Laiterekisteri</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        
+        <!-- Otsikkopalkin container -->
+        <div class="container-fluid" id="paaotsikko">
+            <div class="row">
+                <div class="col">
+                    <h1>Etusivu</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Päävalikon container -->
+        <div class="container-fluid" id="etusivucontainer">
+            <div class="list-group">
+                <a href="lisaa.php" class="list-group-item list-group-item-action">Lisää laitteita</a>
+                <a href="katso.php" class="list-group-item list-group-item-action">Näytä tietokanta</a>
+                <a href="muokkaa.php" class="list-group-item list-group-item-action">Muokkaa/poista laitteita</a>
+                <a href="sisalto.php" class="list-group-item list-group-item-action">Manuaalien ja sisällön lisäys</a>
+              </div><br><br>
+              <div class="list-group">
+                <a href="create.php" class="list-group-item list-group-item-action">Luo testikanta</a>
+                <a href="create1.php" class="list-group-item list-group-item-action">Luo testitaulu</a>
+              </div>
+        </div>
+
+        <!-- Bootstrapin vaatimat javascriptit -->
+        <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
